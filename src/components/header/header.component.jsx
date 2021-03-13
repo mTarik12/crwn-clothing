@@ -34,7 +34,7 @@ const Header = ({ currentUser, hidden }) => (
       )}
       <CartIcon />
     </div>
-    {hidden ? <CartDropDown /> : ""}
+    {!hidden ? <CartDropDown /> : ""}
   </div>
 );
 
